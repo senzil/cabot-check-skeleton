@@ -47,3 +47,6 @@ class SkeletonStatusCheckPlugin(StatusCheckPlugin):
             result.error = u'%s is not in the list of bones' % check.bone_name
             return result
 
+    def description(self, check):
+        return '%s in list of bones.' % check.bone_name
+
