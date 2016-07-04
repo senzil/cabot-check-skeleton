@@ -1,12 +1,6 @@
-from django.conf import settings
-from django.template import Context, Template
 from django import forms
 from cabot.plugins.models import StatusCheckPlugin
-from cabot.cabotapp.models import StatusCheckResult
 from os import environ as env
-import logging
-import requests
-from django.utils import timezone
 
 
 class SkeletonStatusCheckForm(forms.Form):
