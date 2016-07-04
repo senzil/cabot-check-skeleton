@@ -1,0 +1,4 @@
+*.pyc
+dist/
+cabot_check_skeleton.egg-info/
+*.sw?
