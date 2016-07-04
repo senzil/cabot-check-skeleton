@@ -1,4 +1,4 @@
-Cabot ICMP Check Plugin
+Cabot Skeleton Check Plugin
 =====
 
-This is a skeleton status check plugin for Cabot.
+This is an example skeleton plugin for cabot. For documentation go to [the Cabot docs](http://cabotapp.com/).
