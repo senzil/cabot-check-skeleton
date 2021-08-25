@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User
-from cabot.cabotapp.tests.tests_basic import LocalTestCase
-from cabot.cabotapp.models import StatusCheck, Instance
-from cabot.plugins.models import StatusCheckPluginModel
+from cabot3.cabotapp.tests.tests_basic import LocalTestCase
+from cabot3.cabotapp.models import StatusCheck, Instance
+from cabot3.plugins.models import StatusCheckPluginModel
 import cabot_check_icmp.plugin
 
 class TestICMPStatusCheckPlugin(LocalTestCase):

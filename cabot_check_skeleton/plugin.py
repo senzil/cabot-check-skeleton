@@ -1,5 +1,5 @@
 from django import forms
-from cabot.plugins.models import StatusCheckPlugin
+from cabot3.plugins.models import StatusCheckPlugin
 from os import environ as env
 
 
